@@ -1,0 +1,15 @@
+SP = float(67836.43)
+RJ = float(36678.66)
+MG = float(29229.88)
+ES = float(27165.48)
+Outros = float(19849.53)
+
+total = float(SP + RJ + MG + ES + Outros)
+print("O total de vendas foi de R$ %.2f" %total)
+
+print("O percentual de vendas por estado foi")
+print("SP: %.2f" %(SP/total*100),"%")
+print("RJ: %.2f" %(RJ/total*100),"%")
+print("MG: %.2f" %(MG/total*100),"%")
+print("ES: %.2f" %(ES/total*100),"%")
+print("Outros: %.2f" %(Outros/total*100),"%")
